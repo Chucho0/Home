@@ -1,0 +1,291 @@
+* {
+    margin: 1vh;
+    padding: 1vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 200px;
+}
+
+h2 {
+    font-size: 50px;
+    color: black;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    transition: transform 0.1s;
+}
+
+.portafolio {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(rgb(91, 180, 235) 15vh, rgb(29, 1, 61));
+}
+
+.trabajos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 10px;
+    width: 100%;
+    background: linear-gradient(rgb(91, 180, 235) 20vh, rgb(29, 1, 61));
+}
+
+.primero {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.programador {
+    width: 230px;
+}
+
+.factura {
+    width: 259px;
+}
+
+.calendario {
+    width: 203px;
+}
+
+.formulario {
+    width: 195px;
+}
+
+@media (max-width: 1499px) {
+    h1 {
+        font-size: 195px;
+    }
+
+    .programador {
+        width: 230px;
+    }
+
+    .factura {
+        width: 259px;
+    }
+
+    .calendario {
+        width: 203px;
+    }
+}
+
+@media (max-width: 1399px) {
+    h1 {
+        font-size: 180px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .programador {
+        width: 222px;
+    }
+
+    .factura {
+        width: 251px;
+    }
+
+    .calendario {
+        width: 196px;
+    }
+
+    .formulario {
+        width: 187px;
+    }
+
+    .trabajos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1299px) {
+    h1 {
+        font-size: 165px;
+    }
+}
+
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 148px;
+    }
+}
+
+@media (max-width: 1099px) {
+    h1 {
+        font-size: 128px;
+    }
+}
+
+@media (max-width: 999px) {
+    h1 {
+        font-size: 108px;
+    }
+}
+
+@media (max-width: 830px) {
+    h1 {
+        font-size: 88px;
+    }
+
+    .programador {
+        width: 192px;
+    }
+
+    .factura {
+        width: 220px;
+    }
+
+    .calendario {
+        width: 166px;
+    }
+
+    .formulario {
+        width: 160px;
+    }
+}
+
+@media (max-width: 760px) {
+    h1 {
+        font-size: 78px;
+    }
+
+    .portafolio {
+        background: linear-gradient(rgb(91, 180, 235) 10vh, rgb(29, 1, 61));
+    }
+
+    .trabajos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 68px;
+    }
+}
+
+@media (max-width: 560px) {
+    h1 {
+        font-size: 58px;
+    }
+
+    * {
+        margin: 0;
+    }
+
+    .portafolio {
+        background: linear-gradient(rgb(91, 180, 235) 5vh, rgb(29, 1, 61));
+    }
+}
+
+@media (max-width: 560px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .programador {
+        width: 172px;
+    }
+
+    .factura {
+        width: 200px;
+    }
+
+    .calendario {
+        width: 146px;
+    }
+
+    .formulario {
+        width: 140px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .programador {
+        width: 152px;
+    }
+
+    .factura {
+        width: 180px;
+    }
+
+    .calendario {
+        width: 126px;
+    }
+
+    .formulario {
+        width: 120px;
+    }
+}
+
+@media (max-width: 270px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .programador {
+        width: 132px;
+    }
+
+    .factura {
+        width: 160px;
+    }
+
+    .calendario {
+        width: 106px;
+    }
+
+    .formulario {
+        width: 100px;
+    }
+
+    * {
+        padding: 1px;
+    }
+}
