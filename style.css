@@ -1,6 +1,8 @@
 * {
-    margin: 10px;
-    padding: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     box-sizing: border-box;
 }
 
@@ -10,7 +12,7 @@ h1 {
 
 h2 {
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 a {
@@ -25,29 +27,29 @@ p {
 .portafolio {
     display: flex;
     justify-content: center;
-    border-radius: 10px;
-    background: linear-gradient(rgb(132, 202, 245), rgb(99, 60, 145));
+    border-radius: 5px;
+    background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
     max-width: 100%;
 }
 
 .presentacion {
     display: grid;
     max-width: 100%;
-    padding-top: 77px;
+    padding-top: 12px;
 }
 
 .descricion {
-    max-width: 100%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 5px;
     margin: auto;
-    background: linear-gradient(rgb(132, 202, 245), rgb(99, 60, 145));
+    background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .contacto {
-    color: white;
+    color: black;
 }
 
 .textocont {
@@ -55,20 +57,19 @@ p {
 }
 
 .intuitivo {
-    margin-top: 77px;
+    margin-top: 12px;
 }
 
 .trabajos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-radius: 10px;
-    background: linear-gradient(rgb(132, 202, 245), rgb(99, 60, 145));
+    border-radius: 5px;
+    background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
 }
 
 .primero {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
 }
 
 .container {
@@ -77,58 +78,14 @@ p {
     align-items: center;
 }
 
-.programador {
-    width: 230px;
-}
-
-.factura {
-    width: 259px;
-}
-
-.calendario {
-    width: 203px;
-}
-
-.formulario {
-    width: 190px;
-}
-
-.presupuesto {
-    width: 230px;
-}
-
-.enproceso {
-    width: 190px;
+.imgi {
+    width: 200px;
 }
 
 @media (max-width: 1399px) {
 
     h2 {
         font-size: 30px;
-    }
-
-    .programador {
-        width: 200px;
-    }
-
-    .factura {
-        width: 229px;
-    }
-
-    .calendario {
-        width: 173px;
-    }
-
-    .formulario {
-        width: 160px;
-    }
-
-    .presupuesto {
-        width: 200px;
-    }
-
-    .enproceso {
-        width: 160px;
     }
 
     a {
@@ -138,6 +95,11 @@ p {
     p {
         font-size: 17px;
     }
+
+    .imgi {
+        width: 150px;
+    }
+
 }
 
 @media (max-width: 1099px) {
@@ -157,28 +119,8 @@ p {
         font-size: 25px;
     }
 
-    .programador {
-        width: 170px;
-    }
-
-    .factura {
-        width: 199px;
-    }
-
-    .calendario {
-        width: 143px;
-    }
-
-    .formulario {
-        width: 130px;
-    }
-
-    .presupuesto {
-        width: 200px;
-    }
-
-    .enproceso {
-        width: 130px;
+    .imgi {
+        width: 120px;
     }
 }
 
@@ -201,32 +143,23 @@ p {
     }
 
     .primero {
-        border-radius: 10px;
-        background: linear-gradient(rgb(132, 202, 245) , rgb(99, 60, 145));
+        border-radius: 5px;
+        background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
     }
 
     .portafolio {
-        background: linear-gradient(rgb(132, 202, 245), rgb(99, 60, 145));
-    }
-
-    * {
-        margin: 0px;
+        background: linear-gradient(rgb(130, 187, 223), rgb(182, 154, 212));
     }
 
     .trabajos {
         gap: 10px;
     }
 
-    .presupuesto {
-        width: 220px;
-    }
-
-    .programador {
-        width: 150px;
-    }
-
-    .factura {
-        width: 179px;
+    * {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
 }
 
@@ -239,39 +172,6 @@ p {
         margin-top: 27px;
     }
 
-    .calendario {
-        width: 133px;
-    }
-
-    .formulario {
-        width: 120px;
-    }
-
-    .enproceso {
-        width: 120px;
-    }
-
-    .programador {
-        width: 140px;
-    }
-
-    .factura {
-        width: 169px;
-    }
-}
-
-
-@media (max-width: 786px) {
-    .portafolio {
-        background: linear-gradient(rgb(91, 180, 235), rgb(29, 1, 61));
-    }
-    .programador {
-        width: 130px;
-    }
-
-    .factura {
-        width: 179px;
-    }
 }
 
 @media (max-width: 650px) {
@@ -281,39 +181,21 @@ p {
 }
 
 @media (max-width: 560px) {
-    .calendario {
-        width: 123px;
-    }
-
-    .formulario {
-        width: 110px;
-    }
-
-    .enproceso {
-        width: 110px;
-    }
-
-    .presupuesto {
-        width: 210px;
+    * {
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
 }
 
 @media (max-width: 505px) {
-    .programador {
-        width: 120px;
-    }
-
-    .factura {
-        width: 149px;
-    }
-
     .intuitivo {
         margin-top: 17px;
     }
 }
 
 @media (max-width: 417px) {
-
     a {
         font-size: 13px;
     }
@@ -332,55 +214,10 @@ p {
 }
 
 @media (max-width: 340px) {
-    .formulario {
-        width: 90px;
-    }
-
-    .enproceso {
-        width: 90px;
-    }
-
-    .presupuesto {
-        width: 190px;
-    }
-}
-
-@media (max-width: 311px) {
-    .formulario {
-        width: 70px;
-    }
-
-    .enproceso {
-        width: 70px;
-    }
-
-    .presupuesto {
-        width: 130px;
-    }
-
-    .calendario {
-        width: 93px;
-    }
-
-    .programador {
-        width: 89px;
-    }
-
-    .factura {
-        width: 109px;
-    }
-}
-
-@media (max-width: 260px) {
-    .formulario {
-        width: 50px;
-    }
-
-    .enproceso {
-        width: 50px;
-    }
-
-    .presupuesto {
-        width: 110px;
+    * {
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 1px;
+        margin-bottom: 1px;
     }
 }
