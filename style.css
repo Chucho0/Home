@@ -1,18 +1,11 @@
 * {
-    margin: 1vh;
-    padding: 1vh;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1vh;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 h1 {
-    font-weight: 600;
-    font-size: 200px;
+    font-size: 100px;
 }
 
 h2 {
@@ -20,42 +13,77 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
-a:hover {
-    transform: scale(1.2);
-}
-
 a {
     text-decoration: none;
-    transition: transform 0.1s;
+    font-size: 25px;
+}
+
+.contacto {
+    color: white;
+}
+
+.textocont {
+    color: black;
 }
 
 .portafolio {
     display: flex;
-    align-items: center;
-    width: 100%;
     justify-content: center;
     border-radius: 10px;
-    background: linear-gradient(rgb(91, 180, 235) 15vh, rgb(29, 1, 61));
+    background: linear-gradient(rgb(132, 202, 245) 15vh, rgb(99, 60, 145));
+    max-width: 100%;
+}
+
+.presentacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    padding-top: 133px;
+    margin: auto;
+}
+
+.foto,
+.descricion {
+    max-width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    background: linear-gradient(rgb(132, 202, 245) 15vh, rgb(99, 60, 145));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    width: 90%;
+    height: auto;
+}
+
+p {
+    font-size: 25px;
+}
+
+.intuitivo {
+    margin-top: 133px;
 }
 
 .trabajos {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     border-radius: 10px;
-    width: 100%;
-    background: linear-gradient(rgb(91, 180, 235) 20vh, rgb(29, 1, 61));
+    background: linear-gradient(rgb(132, 202, 245) 20vh, rgb(99, 60, 145));
 }
 
 .primero {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
 }
 
 .programador {
@@ -71,7 +99,15 @@ a {
 }
 
 .formulario {
-    width: 195px;
+    width: 190px;
+}
+
+.presupuesto {
+    width: 230px;
+}
+
+.enproceso {
+    width: 190px;
 }
 
 @media (max-width: 1499px) {
